@@ -17,4 +17,6 @@
                                 order="first"/>
     </extensions>
 
+    <idea-version since-build="201"/>
+
 </idea-plugin>
