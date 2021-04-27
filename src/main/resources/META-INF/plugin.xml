@@ -4,7 +4,7 @@
     <vendor email="hackerwgf@gmail.com" url="https://github.com/hackerwgf">Daniel</vendor>
 
     <description><![CDATA[
-    Lets you view BTC price in status bar, powered by <a href="https://www.bigonechina.com">BigONE</a>.
+    This plugin displays the current BTC price in the status bar, powered by <a href="https://www.bigonechina.com">BigONE</a>.
     ]]></description>
 
     <change-notes>Initial release of the plugin.</change-notes>
