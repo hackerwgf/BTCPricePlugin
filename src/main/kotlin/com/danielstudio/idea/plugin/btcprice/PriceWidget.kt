@@ -11,7 +11,7 @@ class PriceWidget : JLabel(), CustomStatusBarWidget {
 
     companion object {
 
-        private const val WS_URL = "wss://www.bigonechina.com/ws/v2"
+        private const val WS_URL = "wss://www.b1.cab/ws/v2"
 
         private const val SYMBOL = "BTC-USDT"
     }
