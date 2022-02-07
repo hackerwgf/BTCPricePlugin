@@ -1,0 +1,30 @@
+<idea-plugin>
+    <id>com.danielstudio.idea.plugin.btcprice</id>
+    <name>BTC Price</name>
+    <vendor email="hackerwgf@gmail.com" url="https://github.com/hackerwgf">Daniel</vendor>
+
+    <description><![CDATA[
+    This plugin displays the current BTC price in the status bar, powered by <a href="https://www.bigone.com">BigONE</a>.
+    ]]></description>
+
+    <change-notes><![CDATA[
+    <ul>
+        <li>1.3
+        <ul>
+            <li>update host</li>
+        </ul>
+        </li>
+    </ul>
+    ]]></change-notes>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <statusBarWidgetFactory id="PriceWidgetFactory"
+                                implementation="com.danielstudio.idea.plugin.btcprice.PriceWidgetFactory"
+                                order="first"/>
+    </extensions>
+
+    <idea-version since-build="201"/>
+
+</idea-plugin>
