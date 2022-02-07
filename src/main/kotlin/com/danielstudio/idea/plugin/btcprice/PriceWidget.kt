@@ -11,14 +11,14 @@ class PriceWidget : JLabel(), CustomStatusBarWidget {
 
     companion object {
 
-        private const val WS_URL = "wss://www.b1.cab/ws/v2"
+        private const val WS_URL = "wss://www.big.one/ws/v2"
 
         private const val SYMBOL = "BTC-USDT"
     }
 
     private val mOkHttpClient = OkHttpClient.Builder().build()
 
-    private val mRequest = Request.Builder().url(WS_URL).build()
+    private val mRequest = Request.Builder().url(WS_URL).addHeader("Sec-WebSocket-Protocol", "json").build()
 
     private var mWebSocket: WebSocket? = null
 
